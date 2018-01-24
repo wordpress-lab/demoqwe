@@ -1,0 +1,6 @@
+zarifcb_ams       db
+
+zarifcb_ams
+auh0Dg$AqdDa
+
+/opt/alt/php56/usr/bin/php /home/zarifcb/ams.zarifcb.com/artisan email:backupschedule

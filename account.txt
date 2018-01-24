@@ -1,0 +1,27 @@
+Assets - 
+Other Asset , 
+Other Current asset - Any short term asset that can be converted into cash or cash equivalents easily - 1. Prepaid expenses 2. Stocks and Mutual Funds
+Cash , 
+Bank , 
+Fixed asset , 
+Stock
+
+
+Liability - Other Current Liability , Credit Card, Long Term Liability, Other Liability
+Equity - Equity
+income - income , Other Income
+Expense -  Expense , Cost of Goods Sold , Other Expense
+
+
+Other Current asset - 
+
+
+payment receive jurnal entry info
+
+jurnal type = 1 "invoice id show"
+jurnal type = 2 " for show payment id"
+jurnal typr = 3 "for manual jurnal"
+journal_type = invoice for invoice entry
+
+// some note
+manual jurnal = Account Receivables and Payables cannot be selected with Bank, Card, Cash and Clearing accounts.

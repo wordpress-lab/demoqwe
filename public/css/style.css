@@ -1,0 +1,50 @@
+
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'AdorshoLipi', Arial, sans-serif !important;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.app{
+    margin-top: 500px;
+}
+.content{
+
+    font-size: 18px;
+}
+.potro_1{
+    margin-top: 40px;
+}
+
+.document{
+
+    margin-top: 50px;
+
+}
+.popup{
+
+    padding-top: 200px;
+}
+.popup_3{
+
+    padding-top: 230px;
+}
+
+.st{
+    width: 500px;
+}
+
+
+
+
+
+

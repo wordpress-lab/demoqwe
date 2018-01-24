@@ -1,0 +1,13 @@
+@echo off
+git add .
+git commit -m "update "
+git pull origin master
+php artisan migrate
+
+php artisan serve 
+
+ start chrome http://www.stackoverflow.com
+
+
+
+

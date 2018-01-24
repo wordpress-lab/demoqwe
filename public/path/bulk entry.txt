@@ -1,0 +1,35 @@
+bulk input code;;;;;;;;;;;..................................
+
+<div class="uk-width-medium-2-5">
+                    <div class="md-card">
+                        <div class="md-card-content">
+                            <div class="uk-grid form_section" id="d_form_row">
+                                <div class="uk-width-1-1">
+                                    <div class="uk-input-group">
+                                        <label>Company Name</label>
+                                        <input type="text" class="md-input" name="d_form_company">
+                                        <span class="uk-input-group-addon">
+                                            <a href="#" class="btnSectionClone" data-section-clone="#d_form_row"><i class="material-icons md-24">&#xE146;</i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT note_sheet.*,contact.display_name,recruitingorder.passportNumber,visaentrys.visaNumber,recruit_customer.visaAdvice,recruit_customer.professionEn,company.salary,company.mealallowance,company.airtransport FROM note_sheet JOIN note_sheet_pax ON note_sheet.id= note_sheet_pax.note_sheet_id JOIN recruitingorder ON note_sheet_pax.recruit_id= recruitingorder.id JOIN visaentrys ON recruitingorder.registerSerial_id= visaentrys.id JOIN recruit_customer ON note_sheet_pax.recruit_id= recruit_customer.recruit_id JOIN company ON visaentrys.company_id= company.id JOIN contact ON recruitingorder.customer_id= contact.id

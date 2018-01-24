@@ -1,0 +1,128 @@
+.header{
+    text-align: center;
+}
+body{
+	font-weight: bold;
+}
+
+hr{
+	height: 1px; 
+	color: #0a001f;
+}
+
+#div-main-part{
+	width: 75%; 
+	float: left;
+}
+
+table#header tr td {
+    width: 33%;
+    font-size: 8px;
+}
+
+table#header tr td:nth-child(2) {
+	text-align: right;
+}
+
+table#main-part{
+	width: 100%;
+	line-height: 20px;
+}
+
+table#main-part tr td:nth-child(1){
+	width: 40%;
+	font-size: 8px;
+}
+
+table#main-part tr td:nth-child(2){
+	width: 60%;
+	font-size: 8px;
+}
+
+#side-bar{
+	width: 25%; 
+	float: right;
+	font-size: 8px;
+	text-align: center;
+}
+
+#div-body-part{
+	width: 50%; 
+	float: left;
+	font-size: 8px;
+}
+
+#div-body-part table{
+	width: 100%;
+	line-height: 20px;
+}
+
+#div-body-part table tr td:nth-child(1){
+	width: 70%;
+	font-size: 8px;
+	text-align: right;
+}
+
+#div-body-part table tr td:nth-child(2){
+	width: 30%;
+	font-size: 8px;
+	text-align: left;
+}
+
+#div-body-part-right{
+	width: 50%; 
+	float: right;
+	font-size: 8px;
+}
+
+#div-body-part-right table{
+	width: 100%;
+	line-height: 20px;
+}
+
+#div-body-part-right table tr td:nth-child(1){
+	width: 70%;
+	font-size: 8px;
+	text-align: right;
+}
+
+#div-body-part-right table tr td:nth-child(2){
+	width: 30%;
+	font-size: 8px;
+	text-align: left;
+}
+
+.additional-information{
+	font-size: 8px;
+}
+
+.information{
+	border:1px solid black;
+	font-weight: normal;
+}
+
+#signature-left{
+	width: 25%;
+	float: left;
+	font-size: 8px;
+}
+
+#signature-right{
+	width: 25%;
+	float: right;
+	font-size: 8px;
+	text-align: left;
+}
+
+#signature{
+	height: 70px;
+	width: 150px;
+	border:1px solid black;
+}
+
+#signature-small{
+	height: 20px;
+	width: 150px;
+	border:1px solid black;
+}
+

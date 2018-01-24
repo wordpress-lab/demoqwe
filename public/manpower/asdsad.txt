@@ -1,0 +1,1 @@
+SELECT daily_accounts.ix_status,sum(daily_accounts.amount) as total ,daily_accounts.date, account_types.name FROM `daily_accounts` JOIN account_types on account_types.id = daily_accounts.acc_type group BY daily_accounts.ix_status, daily_accounts.acc_type
